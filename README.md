@@ -28,7 +28,6 @@ https://lucascarvalho8.github.io/gerador-senhas/
 ---
 
 ✨ Melhorias Futuras:
- Aqui estão algumas ideias para evoluir o projeto:
 
  Permitir ao usuário escolher:
 
