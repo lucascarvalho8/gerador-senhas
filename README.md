@@ -29,9 +29,7 @@ https://lucascarvalho8.github.io/gerador-senhas/
 
 ✨ Melhorias Futuras:
 
- Permitir ao usuário escolher:
-
- Quantidade de caracteres da senha
+ Permitir ao usuário escolher quantidade de caracteres da senha.
 
  Se deseja incluir números, letras maiúsculas, símbolos etc.
 
