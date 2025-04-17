@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade com IE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+  <!-- Ícones do Google (Material Symbols) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Gerador de senha</title> <!-- Título da aba -->
+</head>
+<body>
+  <!-- Container principal da aplicação -->
+  <section class="container">
+    <h3>Gerar & Copiar</h3> <!-- Título do app -->
+
+    <!-- Área com o campo de senha e botão de copiar -->
+    <div class="boxCopy">
+      <input type="text" disabled class="input"> <!-- Campo que mostra a senha gerada -->
+      <a href="#" onclick="copy()"> <!-- Botão para copiar a senha -->
+        <span class="material-symbols-outlined">content_copy</span> <!-- Ícone de cópia -->
+      </a>
+    </div>
+
+    <!-- Botão para gerar uma nova senha -->
+    <button class="btn" onclick="generator()">
+      <span class="material-symbols-outlined">autorenew</span> <!-- Ícone de atualização -->
+    </button>
+  </section>
+
+  
+  <script src="assets/script.js"></script>
+</body>
+</html>
